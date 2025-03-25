@@ -35,7 +35,7 @@ function Signup() {
           Create your PopX account
         </h2>
         <form onSubmit={handleSubmit} className="space-y-4">
-          <div className="relative mt-4">
+          <div className="relative mt-4 z-[9999]">
             <input
               type="text"
               id="fullName"
@@ -55,7 +55,7 @@ function Signup() {
               Full Name*
             </label>
           </div>
-          <div className="relative mt-4">
+          <div className="relative mt-4 z-[9999]">
             <input
               type="tel"
               id="phoneNumber"
@@ -76,7 +76,7 @@ function Signup() {
             </label>
           </div>
 
-          <div className="relative mt-4">
+          <div className="relative mt-4 z-[9999]">
             <input
               type="tel"
               id="phoneNumber"
@@ -97,7 +97,7 @@ function Signup() {
             </label>
           </div>
 
-          <div className="relative mt-4">
+          <div className="relative mt-4 z-[9999]">
             <input
               type="email"
               id="email"
@@ -117,7 +117,7 @@ function Signup() {
               Email address*
             </label>
           </div>
-          <div className="relative mt-4">
+          <div className="relative mt-4 z-[9999]">
             <input
               className="w-full px-3 py-2.5 text-gray-800 border border-gray-300 rounded-md peer placeholder-transparent focus:outline-none focus:ring-2 focus:ring-purple-600"
               type="password"
@@ -137,7 +137,7 @@ function Signup() {
               Password*
             </label>
           </div>
-          <div className="relative mt-4">
+          <div className="relative mt-4 z-[9999]">
             <input
               className="w-full px-3 py-2.5 text-gray-800 border border-gray-300 rounded-md peer placeholder-transparent focus:outline-none focus:ring-2 focus:ring-purple-600"
               type="text"
@@ -157,7 +157,7 @@ function Signup() {
             </label>
           </div>
 
-          <div className="space-y-2">
+          <div className="space-y-2 z-[9999]">
             <label className="block text-sm font-semibold text-gray-700">
               Are you an Agency?*
             </label>
@@ -188,7 +188,7 @@ function Signup() {
           </div>
           <button
             type="submit"
-            className="w-full bg-purple-600 text-white py-2 px-4 rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full bg-purple-600 text-white py-2 px-4 rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 cursor-pointer z-[9999]"
             onClick={handleNavigation}
           >
             Create Account

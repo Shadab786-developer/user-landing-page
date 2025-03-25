@@ -36,7 +36,7 @@ function Login() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
         <form onSubmit={handleLogin} className="space-y-4">
-          <div className="relative mt-4">
+          <div className="relative mt-4 z-[9999]">
             <input
               type="email"
               id="email"
@@ -56,7 +56,7 @@ function Login() {
               Email address*
             </label>
           </div>
-          <div className="relative mt-4">
+          <div className="relative mt-4 z-[9999]">
             <input
               className="w-full px-3 py-2.5 text-gray-800 border border-gray-300 rounded-md peer placeholder-transparent focus:outline-none focus:ring-2 focus:ring-purple-600"
               type="password"

@@ -17,7 +17,7 @@ function Footer() {
     <div className="bg-white border-b border-b-gray-100 left-0 px-6 fixed top-0 w-screen z-[100] md:h-11">
       <div className="flex items-center my-0 mx-auto min-h-full max-w-[1128px]">
         {/* Navigation links */}
-        <nav className=" md:block md:top-0 md:bg-transparent lg:ml-[45%] lg:block lg:top-0 lg:bg-transparent sm:fixed sm:left-0 sm:bottom-0 sm:bg-white sm:w-full">
+        <nav className=" md:block md:top-0 md:bg-transparent lg:block lg:top-0 lg:bg-transparent sm:fixed sm:left-0 bottom-0 sm:bg-white sm:w-full">
           <ul className="flex flex-nowrap list-none items-center justify-center">
             <li className="flex items-center hover:text-black hover:text-[14px]">
               <NavLink

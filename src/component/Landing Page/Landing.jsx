@@ -16,9 +16,9 @@ function Landing() {
       <p className="text-center text-gray-500 mb-6 sm:text-2xl text-[12px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
-      <div className="space-y-4">
+      <div className="space-y-4 z-[9999]">
         <button
-          className="font-bold w-full bg-indigo-600 text-white py-2 rounded-sm hover:bg-purple-700 transition duration-200 sm:text-[20px] text-[12px] cursor-pointer"
+          className="font-bold w-full bg-indigo-600 text-white py-2 rounded-sm hover:bg-purple-700 transition duration-200 sm:text-[20px] text-[12px] cursor-pointer "
           onClick={handleSignNavigation}
         >
           Create Account
